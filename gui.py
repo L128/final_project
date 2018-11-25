@@ -206,9 +206,9 @@ def objectRecgonition():
     panelResult.image = imageDone
 
 
-recButton = tk.Button(window, text="object recgonition", height=5, command=lambda: objectRecgonition())
+recButton = tk.Button(window, text="JPG object recgonition", height=5, command=lambda: objectRecgonition())
 recButton.pack()
-recButton.place(x=440, y=10, height=40, width=140)
+recButton.place(x=420, y=10, height=40, width=160)
 
 
 def objectRecGif():
